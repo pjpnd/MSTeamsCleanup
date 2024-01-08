@@ -2,7 +2,7 @@
 <h2>Description</h2>
 Unused profiles on the system do not receive updates to Teams, exposing the system to unnecessary risk. 
 If a user is found to have a version of Teams that is not compliant (specified in the script as $targetVersion) the script will invoke two functions, "unInstallTeams" and "removeRoamingFolder".
-The user will still be able to log in, and no user data is changed. Teams will boot up as a pre-defined startup application, and the application will update to a more compliant version. 
+The user will still be able to log in, and no user data is changed. Teams will typically boot up as a pre-defined startup application, and the application will still be able to update to a more compliant version. 
 The target version is derived from ACAS scanning, and will need to be adjusted to meet changing version demands.
 
 <h2>Notes</h2>
